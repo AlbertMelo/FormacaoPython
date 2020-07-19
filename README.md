@@ -1,4 +1,4 @@
-# FormacaoPython Alura
+# Formação Python - Alura
 
 Neste repositório está localizado as atividades e exercícios propostos no curso de Formação Python da plataforma de ensino Alura.
 
