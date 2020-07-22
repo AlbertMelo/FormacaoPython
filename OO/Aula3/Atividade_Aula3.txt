@@ -1,0 +1,24 @@
+Mãos na massa: Definindo o comportamento da classe
+
+Com a classe criada, falta definir o seu comportamento, criando métodos, para sacar, depositar e imprimir o extrato da conta.
+
+Para tal, siga os passos abaixo:
+
+1 - Crie o método extrato, que recebe como argumento uma referência do próprio objeto. Esse método imprimirá o saldo da conta.
+
+2 - Crie o método deposita, que recebe como argumento uma referência do próprio objeto e o valor. Esse método adicionará o valor ao saldo da conta.
+
+3 - Crie o método saca, que recebe como argumento uma referência do próprio objeto e o valor. Esse método subtrairá o valor do saldo da conta.
+
+
+No Python Console, dentro do próprio PyCharm, teste o código, crie uma conta, deposite um valor, visualize o extrato com o saldo incrementado, saque um valor e visualize o extrato com o saldo decrementado, por exemplo:
+
+>>> from conta import Conta
+>>> conta = Conta(123, "Nico", 55.5, 1000.0)
+Construindo objeto ... <conta.Conta object at 0x7fa29f59a518>
+>>> conta.deposita(300.0)
+>>> conta.extrato()
+Saldo de 355.5 do titular Nico
+>>> conta.saca(100.0)
+>>> conta.extrato()
+Saldo de 255.5 do titular Nico
