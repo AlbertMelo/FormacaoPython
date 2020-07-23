@@ -26,3 +26,18 @@ Transferindo um valor de uma conta para outra
 Para transferir um valor de uma conta para outra, crie o método transfere, que recebe como argumento uma
 referência do próprio objeto, o valor a ser transferido, e a conta de destino. Esse método sacará o valor
 da conta atual e o depositará na conta de destino.
+
+---Depois de implementado
+
+No Python Console, dentro do próprio PyCharm, teste o código, crie duas contas e transfira um valor de uma conta para outra, visualizando os seus extratos em seguida, por exemplo:
+
+>>> from conta import Conta
+>>> conta = Conta(123, "Nico", 55.5, 1000.0)
+Construindo objeto ... <conta.Conta object at 0x7f82af89d048>
+>>> conta2 = Conta(321, "Marcos", 100.0, 1000.0)
+Construindo objeto ... <conta.Conta object at 0x7f82af89d400>
+>>> conta.transfere(10.0, conta2)
+>>> conta.extrato()
+Saldo de 45.5 do titular Nico
+>>> conta2.extrato()
+Saldo de 110.0 do titular Marcos
