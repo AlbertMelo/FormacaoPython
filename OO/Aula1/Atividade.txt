@@ -15,7 +15,6 @@ Para implementar o código visto nesta aula, siga os passos abaixo:
 5 - Crie a função extrato, que recebe como argumento a conta e imprime o seu saldo.
 
 --- Após criar fazer o teste abaixo no Console do Python:
-
 >>> from teste import cria_conta, deposita, saca, extrato
 >>> conta = cria_conta(123, "Nico", 55.0, 1000.0)
 >>> deposita(conta, 300.0)
