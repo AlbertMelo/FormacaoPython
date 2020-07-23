@@ -1,7 +1,6 @@
 '''
 Mãos na massa: Atributos privados e transferência de valores entre contas
 '''
-
 class Conta:
     def __init__(self, numero, titular, saldo, limite):
         print("Construindo objeto ... {}".format(self))

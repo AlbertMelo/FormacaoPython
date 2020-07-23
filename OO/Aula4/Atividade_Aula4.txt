@@ -28,7 +28,6 @@ referência do próprio objeto, o valor a ser transferido, e a conta de destino.
 da conta atual e o depositará na conta de destino.
 
 ---Depois de implementado
-
 No Python Console, dentro do próprio PyCharm, teste o código, crie duas contas e transfira um valor de uma conta para outra, visualizando os seus extratos em seguida, por exemplo:
 
 >>> from conta import Conta

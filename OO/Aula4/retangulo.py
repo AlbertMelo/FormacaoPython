@@ -7,3 +7,4 @@ class Retangulo:
 
     def obter_area(self):
         return self.__area
+
